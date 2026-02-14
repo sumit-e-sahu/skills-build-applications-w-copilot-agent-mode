@@ -1,6 +1,6 @@
 
 
-import logo from './logo192.png';
+// import logo from './logo192.png';
 
 function App() {
   return (
@@ -9,7 +9,6 @@ function App() {
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
           <a className="navbar-brand d-flex align-items-center" href="#">
-            <img src={logo} alt="OctoFit Logo" className="octofit-navbar-logo" />
             OctoFit Tracker
           </a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
