@@ -5,7 +5,7 @@ function Users() {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    fetch('https://8000.app.github.dev/api/users/')
+    fetch('https://-8000.app.github.dev/api/users/')
       .then(res => res.json())
       .then(data => setUsers(data));
   }, []);

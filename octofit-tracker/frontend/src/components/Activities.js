@@ -5,7 +5,7 @@ function Activities() {
   const [activities, setActivities] = useState([]);
 
   useEffect(() => {
-    fetch('https://8000.app.github.dev/api/activities/')
+    fetch('https://-8000.app.github.dev/api/activities/')
       .then(res => res.json())
       .then(data => setActivities(data));
   }, []);
