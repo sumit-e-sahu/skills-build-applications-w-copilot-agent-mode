@@ -1,0 +1,118 @@
+
+body {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+  color: #2c3e50;
+}
+
+.App-logo {
+  height: 48px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background: #1a1a2e;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+}
+
+
+.App-link {
+  color: #ff6f61;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.App-link:hover {
+  color: #d7263d;
+}
+
+/* Bootstrap overrides */
+.navbar {
+  background: linear-gradient(90deg, #1a2980 0%, #26d0ce 100%) !important;
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+}
+.navbar-nav .nav-link.active {
+  color: #ffd700 !important;
+}
+.octofit-navbar-logo {
+  height: 40px;
+  margin-right: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #1a2980;
+  font-weight: 700;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #ff6f61 0%, #ffb88c 100%);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(255,111,97,0.15);
+}
+.btn-primary:hover {
+  background: linear-gradient(90deg, #d7263d 0%, #ffb88c 100%);
+}
+
+table {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(44,62,80,0.08);
+  overflow: hidden;
+}
+th {
+  background: #1a2980;
+  color: #fff;
+}
+tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+/* Card styling */
+.card {
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(26,41,128,0.08);
+}
+.card-title {
+  color: #ff6f61;
+}
+
+/* Modal styling */
+.modal-content {
+  border-radius: 12px;
+}
+.modal-header {
+  background: #1a2980;
+  color: #fff;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
